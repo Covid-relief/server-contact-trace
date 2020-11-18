@@ -57,7 +57,7 @@ def send_email(email):
     print(f"Sending email to: {email}")
     return requests.post(
         "https://api.mailgun.net/v3/sandboxc81fd26a81de4c27abb470681b17418d.mailgun.org/messages",
-        auth=("api", "6340ce56e3ccef12c058cb910d94d158-2af183ba-36548ea8"),
+        auth=("api", os.environ.get('API_KEY')),
         data={"from": "mailgun@sandboxc81fd26a81de4c27abb470681b17418d.mailgun.org",
               "to": [email],
               "subject": "Notificación de exposición a COVID-19",
