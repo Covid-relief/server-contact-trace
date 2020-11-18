@@ -35,6 +35,9 @@ Este servidor posee rutas para enviar los contactos y guardarlos en una base de 
 
 Al momento de que una persona resulte infectada, se tiene la opción de enviar los contactos que se tienen al momento, y el servidor extraerá de la base de datos la información de 14 días atrás. Esta data se analizará para identificar a qué personas notificar.
 
+## Resumen de la infraestructura en un mapa
+![ContactTracing](https://github.com/Covid-relief/server-contact-trace/blob/master/images/s9.jpeg)
+
 ### Galería de Imágenes del Servidor de Contact Tracing
 
 ![ContactTracing](https://github.com/Covid-relief/server-contact-trace/blob/master/images/s1.png)
@@ -46,8 +49,7 @@ Al momento de que una persona resulte infectada, se tiene la opción de enviar l
 
 <img src="https://github.com/Covid-relief/server-contact-trace/blob/master/images/s5.png" width="300" />
 
-## Resumen de la infraestructura en un mapa
-![ContactTracing](https://github.com/Covid-relief/server-contact-trace/blob/master/images/s9.jpeg)
+
 # Resumen de estrategias NoSQL
 
 ## Contenedores
