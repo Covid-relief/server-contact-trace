@@ -204,7 +204,7 @@ def contact_trace_data():
     for item in data:
         data_list.append(item)
 
-    return data_list
+    return str(data_list)
 
 # from app.py
 # decorator to protect routes
