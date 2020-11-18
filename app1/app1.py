@@ -197,6 +197,15 @@ def createTodo():
         message='To-do saved successfully!'
     ), 201
 
+@application.route('/contact-trace-data')
+def contact_trace_data():
+    data = collection.find()
+    data_list = []
+    for item in data:
+        data_list.append(item)
+
+    return data_list
+
 # from app.py
 # decorator to protect routes
 def isAuthenticated(f):
