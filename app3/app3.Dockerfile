@@ -4,6 +4,7 @@ FROM python:3.8.5-alpine
 
 # ENV GROUP_ID=1000 \
 #     USER_ID=1000
+  ENV "${API_KEY}:${API_KEY}"
 
 WORKDIR /app/
 
